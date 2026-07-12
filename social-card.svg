@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="58" y1="45" x2="1137" y2="601" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0D1325"/>
+      <stop offset="0.55" stop-color="#080B16"/>
+      <stop offset="1" stop-color="#11102A"/>
+    </linearGradient>
+    <linearGradient id="form" x1="489" y1="200" x2="779" y2="502" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#5ED6E1"/>
+      <stop offset="0.47" stop-color="#5A91E8"/>
+      <stop offset="1" stop-color="#9278FF"/>
+    </linearGradient>
+    <linearGradient id="ramp" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#5140B8"/>
+      <stop offset="0.33" stop-color="#3F8EDB"/>
+      <stop offset="0.66" stop-color="#5CD6D0"/>
+      <stop offset="1" stop-color="#F0D36A"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" rx="34" fill="url(#bg)"/>
+  <path d="M0 108H1200M0 522H1200M104 0V630M1096 0V630" stroke="#8CA3E0" stroke-opacity=".08"/>
+  <circle cx="679" cy="317" r="218" fill="#4B6EDC" fill-opacity=".09" filter="url(#glow)"/>
+  <g stroke="#93C7FF" stroke-opacity=".28" stroke-width="2">
+    <ellipse cx="690" cy="308" rx="266" ry="147" transform="rotate(-12 690 308)"/>
+    <ellipse cx="690" cy="308" rx="198" ry="237" transform="rotate(66 690 308)"/>
+  </g>
+  <g stroke="url(#form)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path d="M557 265C526 228 478 218 423 196"/>
+    <path d="M561 353C522 370 479 385 428 412"/>
+    <path d="M823 262C868 229 906 216 964 197"/>
+    <path d="M819 353C868 371 914 391 968 416"/>
+    <path d="M623 410C587 463 584 507 629 541"/>
+    <path d="M740 409C779 463 777 507 735 541"/>
+  </g>
+  <path d="M568 252C590 183 787 157 833 259C857 312 817 407 700 426C581 407 545 317 568 252Z" fill="url(#form)" fill-opacity=".72" stroke="#B8D7FF" stroke-opacity=".58" stroke-width="3"/>
+  <path d="M634 421C656 443 741 443 766 421" stroke="#D5ECFF" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="619" cy="238" r="8" fill="#F1F4FF"/>
+  <circle cx="777" cy="294" r="7" fill="#6CE3E7"/>
+  <rect x="72" y="73" width="46" height="46" rx="13" fill="#151C37" stroke="#7C9EFF" stroke-opacity=".4"/>
+  <path d="M84 98h9l5-12 9 26 6-15h10" stroke="url(#ramp)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="72" y="187" fill="#F1F3FC" font-family="Arial, sans-serif" font-size="56" font-weight="700">CardioXR</text>
+  <text x="76" y="233" fill="#A7B4D0" font-family="Arial, sans-serif" font-size="20" letter-spacing="4">SIMPLIFIED CARDIAC EP VISUALISATION</text>
+  <text x="76" y="570" fill="#7E8CAD" font-family="Arial, sans-serif" font-size="17">Research and education demo · Not for clinical use</text>
+  <rect x="76" y="532" width="252" height="5" rx="3" fill="url(#ramp)"/>
+</svg>

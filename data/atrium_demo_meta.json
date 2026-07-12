@@ -1,0 +1,308 @@
+{
+  "attribution": {
+    "credit": "Roney et al., Zenodo record 5801337, Mesh_10954794.vtk",
+    "doi": "10.5281/zenodo.5801337",
+    "license": "Creative Commons Attribution 4.0 International",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "record": "https://zenodo.org/records/5801337",
+    "title": "Predicting atrial fibrillation recurrence by combining population data and virtual cohorts of patient-specific left atrial models"
+  },
+  "fieldPreservation": {
+    "mode": "metadata-only",
+    "reason": "The current renderer uses simplified scenario sampling; decimation correspondence is not exposed as a runtime scientific-field contract.",
+    "sidecar": null
+  },
+  "generated": {
+    "bounds": {
+      "extent": [
+        3.4000000953674316,
+        1.812268614768982,
+        2.261301279067993
+      ],
+      "max": [
+        1.7000000476837158,
+        0.906134307384491,
+        1.1306506395339966
+      ],
+      "min": [
+        -1.7000000476837158,
+        -0.906134307384491,
+        -1.1306506395339966
+      ]
+    },
+    "fileName": "atrium_demo.glb",
+    "fileSizeBytes": 2167148,
+    "pointCount": 45253,
+    "sha256": "defc17867700009a0d25a007b702ee32c6f3b717e513741dd1d2987aa29b3cfe",
+    "sourceToWeb": {
+      "axisMap": [
+        "x",
+        "y",
+        "z"
+      ],
+      "matrix": [
+        [
+          2.9923546781893408e-05,
+          0.0,
+          0.0,
+          0.9846536519636416
+        ],
+        [
+          0.0,
+          2.9923546781893408e-05,
+          0.0,
+          0.8281866768123901
+        ],
+        [
+          0.0,
+          0.0,
+          2.9923546781893408e-05,
+          -2.269282327529378
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rotationRadians": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "translationBeforeScale": [
+        32905.646484375,
+        27676.755126953125,
+        -75836.0078125
+      ],
+      "uniformScale": 2.9923546781893408e-05
+    },
+    "topology": {
+      "boundaryComponents": [
+        {
+          "edges": 198,
+          "vertices": 198
+        },
+        {
+          "edges": 114,
+          "vertices": 114
+        },
+        {
+          "edges": 84,
+          "vertices": 84
+        },
+        {
+          "edges": 62,
+          "vertices": 62
+        },
+        {
+          "edges": 54,
+          "vertices": 54
+        }
+      ],
+      "boundaryEdgeCount": 512,
+      "boundaryLoopCount": 5,
+      "connectedComponentCount": 1,
+      "degenerateTriangleCount": 0,
+      "nonManifoldEdgeCount": 0
+    },
+    "triangleCount": 90000
+  },
+  "processing": {
+    "algorithm": "vtkDecimatePro",
+    "boundaryVertexDeletion": false,
+    "holeFilling": false,
+    "preserveTopology": true,
+    "sourceTriangleCountBeforeReduction": 289022,
+    "targetReductionRequested": 0.6886050196870827,
+    "targetTriangleCount": 90000
+  },
+  "schemaVersion": 1,
+  "source": {
+    "bounds": {
+      "extent": [
+        113622.890625,
+        60593.02734375,
+        75569.84375
+      ],
+      "max": [
+        23905.80078125,
+        2634.625732421875,
+        113621.203125
+      ],
+      "min": [
+        -89717.09375,
+        -57958.40234375,
+        38051.359375
+      ]
+    },
+    "coordinateUnits": "unspecified by source dataset; no physical conversion applied",
+    "datasetType": "PolyData",
+    "expectedZenodoMd5": "8ef0c426f8e6cff0969ab34b9bb9ba8f",
+    "fields": [
+      {
+        "association": "point",
+        "componentCount": 1,
+        "componentRanges": [
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "name": "UAC1",
+        "nanCounts": [
+          0
+        ],
+        "nonFiniteCounts": [
+          0
+        ],
+        "tupleCount": 145134
+      },
+      {
+        "association": "point",
+        "componentCount": 1,
+        "componentRanges": [
+          [
+            0.0,
+            1.0
+          ]
+        ],
+        "name": "UAC2",
+        "nanCounts": [
+          0
+        ],
+        "nonFiniteCounts": [
+          0
+        ],
+        "tupleCount": 145134
+      },
+      {
+        "association": "point",
+        "componentCount": 1,
+        "componentRanges": [
+          [
+            0.39195799827575684,
+            1.84579598903656
+          ]
+        ],
+        "name": "IIR",
+        "nanCounts": [
+          0
+        ],
+        "nonFiniteCounts": [
+          0
+        ],
+        "tupleCount": 145134
+      },
+      {
+        "association": "cell",
+        "componentCount": 3,
+        "componentRanges": [
+          [
+            -0.9999899864196777,
+            0.9999899864196777
+          ],
+          [
+            -1.0,
+            0.999970018863678
+          ],
+          [
+            -1.0,
+            0.9999799728393555
+          ]
+        ],
+        "name": "fiber_endo",
+        "nanCounts": [
+          0,
+          0,
+          0
+        ],
+        "nonFiniteCounts": [
+          0,
+          0,
+          0
+        ],
+        "tupleCount": 289022
+      },
+      {
+        "association": "cell",
+        "componentCount": 3,
+        "componentRanges": [
+          [
+            -1.0,
+            0.9999899864196777
+          ],
+          [
+            -1.0,
+            0.9999300241470337
+          ],
+          [
+            -0.999970018863678,
+            0.9999799728393555
+          ]
+        ],
+        "name": "fiber_epi",
+        "nanCounts": [
+          0,
+          0,
+          0
+        ],
+        "nonFiniteCounts": [
+          0,
+          0,
+          0
+        ],
+        "tupleCount": 289022
+      }
+    ],
+    "fileName": "Mesh_10954794.vtk",
+    "fileSizeBytes": 33118100,
+    "md5": "8ef0c426f8e6cff0969ab34b9bb9ba8f",
+    "pointCount": 145134,
+    "sha256": "1a3d60137561fb107b7ca8dd9bc3b8b43ed6f5c8a19a8cdba4763ae96090d9df",
+    "surfaceExtractionApplied": false,
+    "topology": {
+      "boundaryComponents": [
+        {
+          "edges": 593,
+          "vertices": 593
+        },
+        {
+          "edges": 201,
+          "vertices": 201
+        },
+        {
+          "edges": 197,
+          "vertices": 197
+        },
+        {
+          "edges": 149,
+          "vertices": 149
+        },
+        {
+          "edges": 112,
+          "vertices": 112
+        }
+      ],
+      "boundaryEdgeCount": 1252,
+      "boundaryLoopCount": 5,
+      "connectedComponentCount": 1,
+      "degenerateTriangleCount": 0,
+      "nonManifoldEdgeCount": 0
+    },
+    "triangleCount": 289022
+  },
+  "tools": {
+    "numpy": "2.5.1",
+    "platform": "macOS-26.4.1-arm64-arm-64bit",
+    "python": "3.12.13",
+    "pyvista": "0.46.5",
+    "trimesh": "4.12.2",
+    "vtk": [
+      9,
+      5,
+      2
+    ]
+  }
+}
